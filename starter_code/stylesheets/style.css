@@ -5,3 +5,429 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+*{
+    font-size: 15px;
+}
+
+
+html, body {
+    margin: 0;
+   
+}
+
+/* everything should have padding, except main */
+ body ul, body header {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+
+header{
+    margin-top: 100px;
+}
+
+header h1{
+    font-size: 3.3rem;
+    max-width: 90%;
+    color: #2C303F;
+}
+
+header p{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 200;
+    color: #5b5e6d;
+    text-align: left;
+    
+}
+
+header img{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    align-items: center
+
+}
+
+main img{
+    max-width: 50%;
+    
+}
+
+ button {
+    color: white;
+    background: #192592;
+    width: 100%;
+    height: 75px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
+
+input[type=text]{
+   box-sizing: border-box; 
+    width: 100%;
+    height: 75px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: solid;
+    border-width: 1px;
+    color: #5b5e6d
+    
+}
+
+main div h2 {
+    font-size: 2.5rem;
+    color: #2C303F;
+    text-align: center;
+}
+
+main div p{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 2.5rem;
+    font-weight: 300;
+    color: #5b5e6d;
+    text-align: center;
+}
+
+main button#discover{
+    color: #192592;
+    background-color: white;
+    width: 100%;
+    height: 75px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+#line {
+    border: 1px #5b5e6d;
+    width: 100%;
+   }
+
+   #background-color img{
+      padding-top: 20px;
+      padding-bottom: 20px;     
+   }
+   
+   .img-border {
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.2px solid #5b5e6d;
+    width: 100vw;
+   }
+
+   ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  main h2, main p, main .logos img, main form {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.logos img{
+    display: flex;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.logos {
+    padding-top: 30px;
+    background-color: #F4F3F4;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #5b5e6d;
+}
+
+.distance-bottom-50{
+    margin-bottom: 50px;
+}
+
+  footer .footer-box {
+    font-family: sans-serif;
+    color: #2C303F;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  footer ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main h3 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 2rem;
+    color: #2C303F;
+    margin-bottom: -20px;
+}
+
+
+
+.title{
+      font-weight: bold;
+      
+  }
+
+  #background-footer{
+      background-color: #F4F3F4;
+    
+      
+  }
+  #background-footer ul{
+    display: flex;
+    
+  }
+
+.footer-box-model{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-size{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.paragraph {
+    text-align: center;
+}
+
+
+
+
+
+.menu ul {
+    text-decoration: none;
+    margin: 0;
+    line-height: 70px;
+    display: block;
+    border-bottom: #5b5e6d;
+    font-family: sans-serif;
+    color: #2C303F;
+   
+}
+
+label {
+   /* display: block;*/
+    cursor: pointer;
+    
+}
+#toggle {
+     display: none;  
+}
+
+.menu{ 
+    text-align: center;
+    width: 100vw;
+    display: none;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    background-color: white
+}
+
+#toggle:checked + .menu {
+    display: block;
+}
+
+nav {
+    width: 100vw;
+    background: white;
+    position: fixed;
+    /* you can also use position: sticky */
+    top: 0;
+    border-bottom: 1px solid #F4F3F4;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center
+ 
+}
+
+#logo {
+    width: 20vw;
+    
+ 
+}
+#logo img{
+    width: inherit
+}
+.right{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+.right label{
+    font-size: 2.5em;
+
+}
+
+#background-footer ul{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #5b5e6d;
+    justify-content: space-evenly;    
+}
+#background-footer img{
+    
+width: 30px;
+}
+
+#background-footer span{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #5b5e6d;
+    
+}
+@media only screen and (max-width: 1280px) {
+.img-border-bottom-mobile {
+    border-bottom: 0.2px solid #5b5e6d;
+   }
+}
+
+#languages {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#languages i {
+    font-size: 1.5em;
+    color: #5b5e6d;
+
+}
+
+#icons-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#icons-footer i {
+    font-size: 1.5em;
+    color: #5b5e6d;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#logo-footer {
+    width: 20vw;
+}
+
+
+@media only screen and (min-width: 1280px) {
+    nav {
+        display: none;
+    }
+    .header-text {
+        width: 40%;
+    }
+    body header {
+        padding: 0%;
+    }
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+    header h1 {
+        font-size: 5rem;
+    }
+    header h1, header p  {
+       
+        max-width: 600px;
+        justify-content: right;
+       
+    }
+    button{
+        max-width: 200px;
+        margin-top: 0;
+
+    }
+    .paragraph {
+        text-align: left;
+        font-size: 1rem;
+    }
+    
+    header p {
+        width: 80%
+    }
+    header h1, header p {
+        text-align: left;
+    }
+
+    form {
+        display: none;
+    }
+
+    header img{
+        width: 30%;
+        order: 1;
+        
+    }
+    .button-size {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .img-box{
+        width: 30vw;
+    }
+   
+    .img-border-bottom {
+        border-bottom: 0.2px solid #5b5e6d;
+    }
+    .img-border-right {
+        border-right: 0.2px solid #5b5e6d;
+    }
+
+    .logo-img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center
+        /* overflow: hidden; */
+    }
+    .logos img {
+        width: 30vw;
+        
+    }
+   
+    main h3 {
+        text-align: left;
+        padding-left: 7%;
+        font-size: 2rem;
+    }
+
+    .main-text {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        
+    }
+    /* header {
+        display: flex;
+    } */
+  }
